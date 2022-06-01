@@ -1,0 +1,23 @@
+{
+  "name": "week10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HegedusAlexandra/w10-practices.git"
+  },
+  "author": "CODE_HEXA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HegedusAlexandra/w10-practices/issues"
+  },
+  "homepage": "https://github.com/HegedusAlexandra/w10-practices#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
