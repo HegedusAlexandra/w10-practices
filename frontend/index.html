@@ -7,6 +7,7 @@
 	<title>This is FRONTEND</title>
 
 	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<form id="googleSearch" action="https://www.google.com/search" method="get">
@@ -19,5 +20,13 @@
 		<input name="password" type="password">
 		<button>Send</button>
 	</form>
+
+
+	<div class="docs">
+		<label for="doc-text">A dokumentum szövege:</label>
+		<textarea name="doc-text" id="doc-text" cols="30" rows="10"></textarea>
+		<p id="save-in-progress-text" class="hidden">Mentés...</p>
+	</div>
+
 </body>
 </html>
